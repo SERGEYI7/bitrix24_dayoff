@@ -35,9 +35,9 @@ class Bitrix24:
             self.loop.stop()
 
 
-data_for = {'fields': {'TITLE': 'ЕБААААААшь',
+data_for = {'fields': {'TITLE': 'Новая задача',
                        'RESPONSIBLE_ID': 1,
-                       'DESCRIPTION': 'ЕБАНУУУУЛУУУУУУУУУУУУУУУУУУУУУУУУУУУУЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛЛ!!!!!!!!!!!!'}}
+                       'DESCRIPTION': 'Описание новой задачи'}}
 bitrix = Bitrix24(url='https://b24-ogfxda.bitrix24.ru/rest/1/m2jcj9ckcsdjjcy9/', data=data_for)
 bitrix.run()
 
