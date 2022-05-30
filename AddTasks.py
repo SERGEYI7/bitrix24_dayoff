@@ -1,7 +1,7 @@
 import asyncio
 import requests
 from isdayoff import DateType, ProdCalendar
-from datetime import date, timedelta, time
+from datetime import date, timedelta
 
 
 class Bitrix24:
